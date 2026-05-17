@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+	Stalin Rodriguez C
+--!>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Savage Fitness - Creative Page</title>
+   <link rel="stylesheet" href="css/styles.css"></head>
+   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+<body>
+
+   <header>
+<div class="logo">
+
+   <a href="index.html">
+
+      <img src="images/logo.png" alt="Savage Fitness Logo">
+
+   </a>
+
+</div>
+
+      <nav>
+         <a href="index.html">About Us</a>
+         <a href="membership.html">Membership</a>
+         <a href="creative.html">Creative Page</a>
+      </nav>
+   </header>
+
+   <main>
+
+      <section class="creative-section">
+         <h2>Workout Generator</h2>
+
+         <button onclick="generateWorkout()">
+            Generate Workout
+         </button>
+
+         <p id="workoutOutput"></p>
+      </section>
+
+      <section class="creative-section">
+         <h2>Workout Countdown Timer</h2>
+
+         <p id="timer">30</p>
+
+         <button onclick="startTimer()">
+            Start Timer
+         </button>
+      </section>
+
+      <section class="creative-section">
+         <h2>Dark / Light Mode</h2>
+
+         <button onclick="toggleMode()">
+            Toggle Mode
+         </button>
+      </section>
+
+      <section class="creative-section">
+         <h2>Gym Motivation Slideshow</h2>
+
+        <img
+   id="slideshow"
+   src="images/slide1.jpg"
+   alt="Gym slideshow image"
+>
+      </section>
+
+   </main>
+
+   <footer>
+      <p>&copy; 2026 Savage Fitness</p>
+   </footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
